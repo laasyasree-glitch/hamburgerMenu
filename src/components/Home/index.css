@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.small-size-display {
+  display: none;
+}
+.large-size-display {
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .small-size-display {
+    display: block;
+  }
+  .large-size-display {
+    display: none;
+  }
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 90%;
+}
