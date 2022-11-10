@@ -24,7 +24,7 @@ const Header = () => (
         overlayStyle
         className="popup-content"
         trigger={
-          <button type="button">
+          <button type="button" className="button1">
             <GiHamburgerMenu className="hamburger-icon" />
           </button>
         }
